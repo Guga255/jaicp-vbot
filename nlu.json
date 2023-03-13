@@ -1,0 +1,84 @@
+{
+    "project": {
+        "id": "zb-faq-cailapub-template_pt",
+        "name": "zb-faq-cailapub-template_pt",
+        "folder": "/"
+    },
+    "settings": {
+        "language": "pt",
+        "spellingCorrection": false,
+        "classificationAlgorithm": "sts",
+        "timezone": "Europe/Moscow",
+        "extendedSettings": {
+            "useShared": false
+        }
+    },
+    "intents": [
+        {
+            "path": "/bye",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "Tchau",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        },
+        {
+            "path": "/hello",
+            "description": null,
+            "answer": null,
+            "customData": null,
+            "enabled": true,
+            "phrases": [
+                {
+                    "text": "Olá",
+                    "entities": null
+                }
+            ],
+            "patterns": null,
+            "slots": null
+        }
+    ],
+    "entities": [],
+    "enabledSystemEntities": [
+        "duckling.number",
+        "duckling.time",
+        "duckling.duration",
+        "duckling.phone-number",
+        "duckling.email",
+        "duckling.url"
+    ],
+    "systemEntities": [
+        {
+            "name": "duckling.number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.time",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.phone-number",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.email",
+            "version": "v2",
+            "enabled": true
+        },
+        {
+            "name": "duckling.url",
+            "version": "v2",
+            "enabled": true
+        }
+    ]
+}
